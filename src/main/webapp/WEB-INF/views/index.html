@@ -1,9 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <meta charset="utf-8" />
+    <title>bpg encoder</title>
+    <script type="application/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 </head>
 <body>
 
+<div class="form-group">
+    <label class="col-sm-4 control-label">select image : </label>
+
+    <div class="col-sm-8">
+        <input type="file" id="rawImage" class="form-control"/>
+        Size : <div id="rawImageSize"></div>
+    </div>
+</div>
+<button type="button" id="encodeBtn">Start Encoding</button>
+<br>
+<div>
+    <label class="col-sm-4 control-label">Result : </label>
+    <button type="button">Download</button>
+    Size : <div id="encodedImageSize"></div>
+</div>
+<img id="previewImage">
+<script type="text/javascript" src="js/bpgdec8a.js"></script>
+<script>
+    jQuery('#rawImage').bind('change', function() {
+        jQuery('#rawImageSize').html(this.files[0].size);
+
+
+
+    });
+
+    var checkFile = function(file){
+        var reader = new FileReader();
+        var name = file.name;
+        var ext = name.substr(name.lastIndexOf('.') + 1).toLowerCase();
+
+        switch(ext) {
+            case 'png'  :
+            case 'jpg'  :
+            case 'jpeg' :
+            case 'gif'  :
+
+//                reader.onload = function (e) {
+//                    jQuery("#previewImage").attr("src", e.target.result);
+//                }
+//                reader.readAsDataURL(file);
+                break;
+
+            default :
+                alert("이미지 파일만 업로드 가능합니다. ( PNG / JPG / GIF )");
+                break;
+        }
+    }
+
+    jQuery("#encodeBtn").click(function(){
+        startEncoding();
+    })
+    var startEncoding = function(){
+        alert("a");
+    }
+
+    var showPreview = function(file){
+        var reader = new FileReader();
+        var name = file.name;
+        var ext = name.substr(name.lastIndexOf('.') + 1).toLowerCase();
+
+
+        reader.onload = function (e) {
+            jQuery("#previewImage").attr("src", e.target.result);
+        }
+        reader.readAsDataURL(file);
+
+    }
+</script>
 </body>
 </html>

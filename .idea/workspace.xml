@@ -67,30 +67,39 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="7" selection-start="81" selection-end="81" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210">
+            <state line="61" column="19" selection-start="1676" selection-end="1676" vertical-scroll-proportion="-6.875" vertical-offset="750" max-vertical-offset="1275">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BpgencoderApplication.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BpgencoderApplication.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bpgencoder/BpgencoderApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="36" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.25609756" vertical-offset="0" max-vertical-offset="1035">
+            <state line="49" column="43" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1140">
               <folding>
-                <element signature="e#2736#2742#0" expanded="true" />
+                <element signature="e#3221#3227#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EncoderController.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="EncoderController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/bpgencoder/EncoderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="5" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+            <state line="18" column="38" selection-start="643" selection-end="643" vertical-scroll-proportion="0.5035461" vertical-offset="57" max-vertical-offset="555">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="52" selection-start="1160" selection-end="1168" vertical-scroll-proportion="-12.92" vertical-offset="172" max-vertical-offset="945">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,8 +131,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/bpgencoder/EncoderController.java" />
         <option value="$PROJECT_DIR$/src/main/java/bpgencoder/BpgencoderApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bpgencoder/EncoderController.java" />
       </list>
     </option>
   </component>
@@ -249,18 +258,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bpgencoder" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -608,12 +605,12 @@
       <changelist id="9e923fb1-f985-4fea-9623-2700d2d6ee99" name="Default" comment="" />
       <created>1422174774288</created>
       <updated>1422174774288</updated>
-      <workItem from="1422174777386" duration="1059000" />
+      <workItem from="1422174777386" duration="3322000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1059000" />
+    <option name="totallyTimeSpent" value="3322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="824" extended-state="6" />
@@ -666,13 +663,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="7" selection-start="81" selection-end="81" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="423">
@@ -682,17 +672,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="52" selection-start="1160" selection-end="1168" vertical-scroll-proportion="0.33333334" vertical-offset="367" max-vertical-offset="945">
+        <state line="33" column="52" selection-start="1160" selection-end="1168" vertical-scroll-proportion="-12.92" vertical-offset="172" max-vertical-offset="945">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bpgencoder/EncoderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,11 +684,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="19" selection-start="1676" selection-end="1676" vertical-scroll-proportion="-6.875" vertical-offset="750" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bpgencoder/BpgencoderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="36" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.25609756" vertical-offset="0" max-vertical-offset="1035">
+        <state line="49" column="43" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1140">
           <folding>
-            <element signature="e#2736#2742#0" expanded="true" />
+            <element signature="e#3221#3227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bpgencoder/EncoderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="38" selection-start="643" selection-end="643" vertical-scroll-proportion="0.5035461" vertical-offset="57" max-vertical-offset="555">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
